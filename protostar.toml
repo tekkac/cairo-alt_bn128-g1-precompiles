@@ -1,0 +1,8 @@
+[project]
+protostar-version = "0.9.1"
+lib-path = "lib"
+cairo-path = ["./src/alt_bn128"]
+
+[contracts]
+alt_bn128 = ["src/alt_bn128/contracts/alt_bn128.cairo"]
+
